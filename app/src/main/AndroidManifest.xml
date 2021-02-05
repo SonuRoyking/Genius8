@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sonup.class8">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Class8">
+        <activity android:name=".Study1Activity"
+            android:label="@string/nav_header_title"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            </activity>
+        <activity
+            android:name=".Category1ActivitIQ"
+            android:label="@string/nav_header_title"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".QuestionModelActivity"
+            android:label="@string/nav_header_title"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".SyllabusActivity"
+            android:label="@string/nav_header_title"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity android:name=".QuizGk" />
+        <activity android:name=".QuizComputer" />
+        <activity android:name=".QuizHindiG" />
+        <activity android:name=".QuizEnglish" />
+        <activity android:name=".QuizHisory" />
+        <activity android:name=".QuizBilogy" />
+        <activity android:name=".QuizChemistry" />
+        <activity android:name=".ScreActivity" />
+        <activity android:name=".QuizPhysics" />
+        <activity
+            android:name=".QuizActivity"
+            android:label="@string/nav_header_title"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            >
+        </activity>
+        <activity
+            android:name=".notesActivity"
+            android:label="@string/action_subjectsTitle"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".CategorynActivity"
+            android:label="@string/nav_header_title"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".Policy"
+            android:label="@string/action_policyTitle"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Class8.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

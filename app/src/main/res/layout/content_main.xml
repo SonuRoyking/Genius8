@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+ tools:showIn="@layout/activity_home">
+
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation" />
+
+    <Button
+android:id="@+id/notes_btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Notes"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintStart_toStartOf="@id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="@id/nav_host_fragment"
+        />
+
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Quiz"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintStart_toStartOf="@id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="@id/nav_host_fragment"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/revision"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Revision Questions"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_marginTop="240dp"-->
+<!--        android:background="@drawable/rounded"-->
+<!--        app:layout_constraintStart_toStartOf="@id/nav_host_fragment"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/nav_host_fragment"-->
+<!--        />-->
+
+
+
+
+    <Button
+        android:id="@+id/questionModel"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Question Model"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="27sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintStart_toStartOf="@id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="@id/nav_host_fragment"
+        />
+
+    <Button
+        android:id="@+id/syllabus"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Syllabus"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintStart_toStartOf="@id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="@id/nav_host_fragment"
+        />
+
+    <Button
+        android:id="@+id/importantQ"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:text="Important Questions"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/rounded"
+        app:layout_constraintStart_toStartOf="@id/nav_host_fragment"
+        app:layout_constraintEnd_toEndOf="@id/nav_host_fragment"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

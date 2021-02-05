@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Class 8</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Class 8 </string>
+    <string name="nav_header_subtitle">Roy Warriors</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="action_policy">Privacy Policy</string>
+    <string name="action_about">About us </string>
+    <string name="action_contact">Contact us</string>
+    <string name="action_Rate">Rate us</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="action_subjectsTitle">Subjects</string>
+
+    <string name="action_policyTitle">Privacy Policy</string>
+
+    <string name="menu_home">Class 8  </string>
+    <string name="menu_study">Notes</string>
+    <string name="menu_quiz"> Quiz</string>
+    <string name="menu_Update">Check Update</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rate">Rate us</string>
+    <string name="menu_other">Other App</string>
+    <string name="title_activity_quiz_history">QuizHistory</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
